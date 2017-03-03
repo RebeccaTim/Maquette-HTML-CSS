@@ -1,0 +1,178 @@
+body {
+	background: url('img/bg.jpg') repeat-y center top #000;
+	color: white;
+	font-family: Arial;
+	
+}
+.all{
+	background: url('img/full.jpg') repeat-y center;
+}
+#container {
+	margin-left: 300px;	
+	margin-right: 300px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+section {
+	width: 1500px;
+	margin-right: 35px;
+	margin-left: 45px;
+
+}
+
+nav{
+	margin-right: 5px;
+	width: 1000px;
+	font-weight: bold;
+	display:flex;
+	flex-direction: column;
+}
+nav li:hover {
+	color: yellow;
+}
+h2 {
+	font-size: 14px;
+	color: black;
+	background-color: yellow;
+	margin-top: 0px;
+}
+h1 {
+	margin-bottom: 0px;
+	padding-bottom: -3px;
+	border-top:3px solid yellow;
+}
+p, .bullet, ol {
+	font-size: 11px;
+	line-height:19px;
+
+}
+strong{
+	color: yellow;
+}
+#gras{
+	font-weight: bold;
+}
+
+#ita {
+	font-style: italic;
+}
+
+#title {
+	background: url('img/title.jpg'); 
+	margin:0;
+	margin-left: 0px;
+	height: 370px;
+	width: 285px;
+
+}
+#middle {
+	height: 770px;
+}
+
+.star1 {
+	list-style-image : url(img/star1.jpg);
+}
+.star1:hover {
+	list-style-image : url(img/star2.jpg);
+}
+
+.bullet {
+	list-style-image : url(img/bullet.gif);
+}
+.bordernav {
+	border-right: 4px solid yellow;
+	border-bottom: 4px solid yellow;
+	border-left: 4px solid yellow;	margin-top: 0;
+	padding: 5px;
+
+}
+.nav {
+	background-color: yellow;
+	margin-bottom: 0;
+	color: rgba(236, 21, 91, 1);
+	padding: 3px 0 0 5px;
+}
+
+.basnav {
+	width: 250px;
+}
+
+.bordernav1 {
+	border-right: 4px solid yellow;
+	border-bottom: 4px solid yellow;
+	border-left: 4px solid yellow;
+	margin-top: 0;
+	height: 300px;
+	padding-left: 10px;
+}
+#tit {
+	position: relative;
+	left: 40px;
+	top: 80px;
+	display: inline-block;
+	color: white;
+	font-size: 50px;
+	font:60px Arial, Helvetica, sans-serif;
+	font-weight:900;
+	line-height:42px;
+	letter-spacing:-6px;
+}
+#imgl, #imgr {
+	border: 2px solid yellow;
+	padding : 4px 4px 0 4px;
+}
+#imgl{
+	float: left;
+	margin:3px 5px 0 0;
+}
+#imgr{
+	float: right;
+	margin:3px 0 0 5px;
+}
+.cadre {
+	background-color: rgb(35, 35, 35);
+	border-top: 2px solid yellow;
+	border-bottom: 2px solid yellow;
+	padding: 5px 10px 5px 10px;
+	margin: 0 30px 0 30px;
+}
+.textunder {
+	border-left: 3px solid yellow;
+	padding-left: 4px;
+	line-height:13px;
+}
+.undertext {
+	color: yellow;
+	font-weight: bold;
+}
+#tableau{
+	width: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+#bottom {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	color: rgb(110,110,110);
+	background-color: rgb(20, 20, 20);
+	border-top: 1px solid rgb(110,110,110);
+}
+.link {
+	border-bottom: 1px solid rgb(110,110,110);
+	padding: 7px 30px 7px 10px;
+
+}
+h5{
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+footer{
+	margin: 0 265px 0 340px;
+	background: url(img/footer.gif) no-repeat bottom right transparent;
+
+}
+
+
